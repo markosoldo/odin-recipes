@@ -6,10 +6,83 @@
     <title>Pepperoni Pizza Fries</title>
 </head>
 <style>
-    h1 {text-align: center;}
-    p {text-align: center;}
+    body {
+        text-align: center; /* Center align the body */
+        }
+
+    .container {
+        display: inline-block; /* Center block-level element */
+        text-align: left; /* Reset text alignment for list items */
+    }
+
+    h1, h3, p, div {
+        text-align: center;
+    }
+
+    ul {
+        text-align: left;
+        list-style-position: inside; /* Keep bullets inside the container */
+    }
+    
+    ol {
+        text-align: left;
+        list-style-type: decimal; /* Use decimal for ordered lists */
+        list-style-position: inside; /* Keep the numbers inside the container */
+        text-indent: -1em;
+    }
 </style>
 <body>
     <h1>Pepperoni Pizza Fries (Loaded French <br>Fry Pizza Recipe)</h1>
+
+    <p>The recipe <a href="https://izzycooking.com/pizza-fries/">source</a>!</p>
+
+    <div>
+        <img src="../images/pizza-fries.jpg" alt="Pizza-Fries.jpg" height="675" width="450">
+    </div>
+
+    <h3>Description</h3>
+
+    <p class="container">
+        Pepperoni Pizza Fries are loaded with crispy French fry pizza crust and cheesy pepperoni toppings. 
+        This is a special pizza you've never had before! <br>It's so easy to make and you can use frozen, freshly 
+        cooked, or leftover French fries. Great for a game day party or any fun dinner parties.
+    </p>
+
+    <h3>Ingredients</h3>
+
+    <div class="container">
+        <ul><strong>For the pizza crust:</strong>
+            <li>4 cups French fries (frozen or freshly cooked)</li>
+            <li>1/2 cup cornstarch</li>
+            <li>salt and pepper (to taste)</li>
+        </ul>
+        <ul><strong>For the Toppings:</strong>
+            <li>3/4 cup marinara sauce (or pizza sauce)</li>
+            <li>2 cups shredded cheese (I used the mix of mozzarella and Swiss cheese)</li>
+            <li>12-15 pepperoni slices</li>
+        </ul>
+    </div>
+
+    <h3>Instructions</h3>
+
+    <div class="container">
+        <ol><strong>Make the Crust</strong>
+            <li>Remove the French fries from the freezer and let them <br>thaw for about 5-10 minutes (you don't need to let it thaw completely).</li>
+            <li>Preheat oven to 400°F and set aside a pizza pan.</li>
+            <li>In a large mixing bowl, add French fries, then use a fork to mash them <br>into smaller pieces.</li>
+            <li>Add cornstarch, salt, and pepper. Mix well.</li>
+            <li>Pour the French fries onto the pizza pan.</li>
+            <li>Press the pieces together to make the crust. (Make sure to press them as <br>much as possible.)</li>
+        </ol>
+        <ol><strong>Add the Toppings</strong>
+            <li >Add marinara sauce on top of the crust, and spread it out evenly.</li>
+            <li>Sprinkle the shredded cheese on top of the sauce.</li>
+            <li>Add pepperoni slices.</li>
+        </ol>
+        <ol><strong>Bake the Pizza and Serve</strong>
+            <li>Bake for 15-20 minutes or until the cheese is melted.</li>
+            <li>Remove from the oven and let it cool for a few minutes. Serve with a pie <br>server and enjoy!</li>
+        </ol>
+    </div>
 </body>
 </html>

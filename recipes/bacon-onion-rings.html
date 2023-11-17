@@ -6,8 +6,30 @@
     <title>Pepperoni Pizza Fries</title>
 </head>
 <style>
-    h1 {text-align: center;}
-    p {text-align: center;}
+    body {
+        text-align: center; /* Center align the body */
+        }
+
+    .container {
+        display: inline-block; /* Center block-level element */
+        text-align: left; /* Reset text alignment for list items */
+    }
+
+    h1, h3, p, div {
+        text-align: center;
+    }
+
+    ul {
+        text-align: left;
+        list-style-position: inside; /* Keep bullets inside the container */
+    }
+    
+    ol {
+        text-align: left;
+        list-style-type: decimal; /* Use decimal for ordered lists */
+        list-style-position: inside; /* Keep the numbers inside the container */
+        text-indent: -1em;
+    }
 </style>
 <body>
     <h1>Bacon Onion Rings Recipe</h1>

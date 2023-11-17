@@ -7,7 +7,7 @@
 </head>
 <style>
     body {
-            text-align: center; /* Center align the body */
+        text-align: center; /* Center align the body */
         }
 
     .container {
@@ -21,7 +21,14 @@
 
     ul {
         text-align: left;
-        list-style: inside; /* Keep bullets inside the container */
+        list-style-position: inside; /* Keep bullets inside the container */
+    }
+    
+    ol {
+        text-align: left;
+        list-style-type: decimal; /* Use decimal for ordered lists */
+        list-style-position: inside; /* Keep the numbers inside the container */
+        text-indent: -1em;
     }
 </style>
 <body>
